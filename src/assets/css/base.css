@@ -1,0 +1,42 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+    --aside-bg: #1b1d1e;
+    --task-bg: #303437;
+    --task-bg-hover: rgba(48, 52, 55, 0.8);
+    --main-text-color: #9fadbc;
+    --dark-text-color: #1a2d4d;
+    --gray-hover-color: #45474a;
+    --active-color: #313131;
+    --black-blur-color: rgba(255, 255, 255, 0.2);
+    --pool-bg-color: #101204;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    font-weight: normal;
+}
+
+body {
+    min-height: 100vh;
+    max-height: 100vh;
+    height: 100vh;
+    color: var(--color-text);
+
+    line-height: 1.6;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
+        "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 13px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html {
+    font-size: 16px;
+}
+i {
+    height: fit-content;
+    width: fit-content;
+}

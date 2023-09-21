@@ -1,0 +1,24 @@
+@import "./base.css";
+
+#app {
+    max-height: 100vh;
+    height: 100vh;
+    margin: 0 auto;
+    color: var(--main-text-color);
+    font-weight: normal;
+}
+.fw-bold {
+    font-weight: 500;
+}
+a,
+.green {
+    text-decoration: none;
+    color: hsla(160, 100%, 37%, 1);
+    transition: 0.4s;
+}
+
+@media (hover: hover) {
+    a:hover {
+        background-color: hsla(160, 100%, 37%, 0.2);
+    }
+}
